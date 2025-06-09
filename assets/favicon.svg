@@ -1,0 +1,6 @@
+<!-- Guarda como favicon.svg en tu carpeta raíz o assets/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+  <rect width="32" height="32" rx="8" fill="#0d6efd"/>
+  <path d="M8 12 Q16 4 24 12 Q32 20 16 32 Q0 20 8 12 Z" stroke="#fff" stroke-width="2" fill="none"/>
+  <path d="M12 20 L16 24 L24 16" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

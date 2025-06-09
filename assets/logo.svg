@@ -1,0 +1,9 @@
+<!-- Guarda como assets/logo_alt.svg -->
+<svg width="220" height="60" viewBox="0 0 220 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="6" y="6" width="48" height="48" rx="12" fill="#0d6efd"/>
+  <g>
+    <path d="M30 18 L38 26 L46 18" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M24 18 Q30 10 36 18 Q42 26 30 40 Q18 26 24 18 Z" stroke="#fff" stroke-width="2" fill="none"/>
+  </g>
+  <text x="65" y="40" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#0d6efd" font-weight="bold">LicitaSeguro</text>
+</svg>

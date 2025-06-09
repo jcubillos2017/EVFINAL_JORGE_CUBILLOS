@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>LicitaSeguro - Inicio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap Icons solo para íconos bonitos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+</head>
+<body>
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title" id="greeting"></h1>
+      <p class="hero-desc">
+        Encuentra, filtra y gestiona licitaciones públicas en Chile de manera simple, rápida y segura.
+      </p>
+      <a href="licitaciones.html" class="hero-btn">
+        <i class="bi bi-search"></i> Explorar Licitaciones
+      </a>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="feature-card">
+      <div class="feature-icon"><i class="bi bi-funnel"></i></div>
+      <div class="feature-title">Filtros Avanzados</div>
+      <div class="feature-desc">Filtra por nombre, código, estado o fecha. Encuentra justo lo que buscas.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon"><i class="bi bi-bar-chart-line"></i></div>
+      <div class="feature-title">Reportes en Excel</div>
+      <div class="feature-desc">Exporta resultados fácilmente para analizarlos donde quieras.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon"><i class="bi bi-shield-lock"></i></div>
+      <div class="feature-title">Seguro y Actualizado</div>
+      <div class="feature-desc">Tus datos protegidos y la información siempre al día.</div>
+    </div>
+  </section>
+
+  <!-- Slider de testimonios -->
+  <section class="testimonios">
+    <h2>Testimonios</h2>
+    <div class="slider" id="slider">
+      <!-- Los testimonios se llenan con JS -->
+    </div>
+    <div class="slider-controls">
+      <button id="prev"><i class="bi bi-chevron-left"></i></button>
+      <button id="next"><i class="bi bi-chevron-right"></i></button>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-social">
+      <a href="https://facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+      <a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter-x"></i></a>
+      <a href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
+      <a href="mailto:contacto@licita.cl"><i class="bi bi-envelope"></i></a>
+    </div>
+    <div>
+      &copy; <span id="footer-year"></span> LicitaSeguro. Todos los derechos reservados.
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  </body>
+</html>

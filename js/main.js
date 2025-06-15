@@ -27,12 +27,16 @@ const testimonios = [
   },
   {
     texto: "La exportación a Excel y los filtros avanzados me ahorran mucho tiempo.",
-    autor: "Carlos Rivas, Consultor"
+    autor: "Vicente Zapata Concha, Consultor Senior"
   },
   {
     texto: "Muy fácil de usar y siempre actualizada. Recomendadísima.",
     autor: "Paula Torres, Proveedora"
-  }
+  },
+  {
+  texto: "Simplemente, GENIAL.",
+  autor: "Raul Bilbao, Proveedor"
+}
 ];
 let idx = 0;
 const slider = document.getElementById('slider');
